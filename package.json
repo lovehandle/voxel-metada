@@ -1,7 +1,7 @@
 {
-  "name": "voxel-template",
+  "name": "voxel-metadata",
     "version": "0.0.1",
-    "description": "A voxel world template",
+    "description": "A Voxel MetaData Editing Prototype",
     "main": "index.js",
     "scripts": {
       "start": "beefy index.js:bundle.js --debug=false -- --fast",
@@ -11,7 +11,7 @@
       "voxel-hello-world" : "*",
       "painterly-textures": "*"
     },
-    "repository": "https://github.com:rclosner/voxel-template",
+    "repository": "https://github.com:rclosner/voxel-metadata",
     "author": "Ryan Closner",
     "license": "BSD"
 }

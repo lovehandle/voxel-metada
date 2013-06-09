@@ -1,0 +1,17 @@
+{
+  "name": "voxel-template",
+    "version": "0.0.1",
+    "description": "A voxel world template",
+    "main": "index.js",
+    "scripts": {
+      "start": "beefy index.js:bundle.js --debug=false -- --fast",
+      "make": "browserify index.js -o ./js/bundle.js"
+    },
+    "dependencies": {
+      "voxel-hello-world" : "*",
+      "painterly-textures": "*"
+    },
+    "repository": "https://github.com:rclosner/voxel-template",
+    "author": "Ryan Closner",
+    "license": "BSD"
+}
